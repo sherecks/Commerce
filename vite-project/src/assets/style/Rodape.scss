@@ -1,0 +1,38 @@
+.contRodape{
+    display: flex;
+    justify-content: center;
+    width: 1070px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: 'Martian Mono', monospace;
+    background-color: rgb(129, 129, 129);
+    height: 128px;
+    border-radius: 10px;
+}
+
+.textRodape{
+    font-size: 17px;
+    margin: 10px;
+    margin-top: 56px;
+}
+
+.linkRodape{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.2s all ease;
+}
+
+.linkRodape:hover{
+    color: rgb(194, 194, 194);
+}
+
+.contatoRodape{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s all ease;
+}
+
+.contatoRodape:hover{
+    color: rgb(194, 194, 194);
+}

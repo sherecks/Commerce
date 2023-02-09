@@ -1,0 +1,48 @@
+.contCatalogo{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    margin: 0 auto;
+    font-family: 'Martian Mono', monospace;
+}
+
+.Catalogo{
+    margin: 4px;
+}
+
+.imgCatalogo{
+    height: 260px;
+    border-radius: 10px; 
+}
+
+.nameCatalogo{
+    margin: 0;
+    padding: 4px;
+    font-size: 12px;
+}
+
+.valorCatalogo{
+    margin-top: 6px;
+    padding: 6px;
+    font-size: 16px;
+}
+
+.buttonCatalogo{
+    width: 260px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Martian Mono', monospace;
+    color: white;
+    background-color: rgb(84, 87, 86);
+    border-radius: 10px;
+    border: none;
+    transition: 0.4s all ease;
+}
+
+.buttonCatalogo:hover{
+    background-color: rgb(194, 194, 194);
+    color: black;
+
+}

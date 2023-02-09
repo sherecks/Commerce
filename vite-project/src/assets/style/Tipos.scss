@@ -1,0 +1,16 @@
+.contTipos{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 275px;
+    margin: 20px auto;
+    background-color: rgb(129, 129, 129);
+    border-radius: 10px;
+}
+
+.TextoTipos{
+    text-align: center;
+    margin: 25px;
+    font-size: 32px;
+    font-family: 'Martian Mono', monospace;
+}
