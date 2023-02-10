@@ -1,15 +1,21 @@
 import './style/Cab.css';
+import { Link } from 'react-router-dom';
 
-export function Cabecalho (){
+
+export function Cabecalho (){ 
     return(
         <header>
             <div class="contHeader">
-                <h1>Commerce</h1>
-                <a href="" class="textHeader">Produtos</a>
-                <a href="" class="textHeader">Categorias</a>
-                <a href="" class="textHeader">Ofertas</a>
-                <a href="" class="textHeader">Busca</a>
-                <a href="" class="textHeaderIcon"><span class="material-symbols-outlined">shopping_cart</span></a>
+                <h1><Link class="Title" to="/">Commerce</Link></h1>
+
+
+                <ul>
+                    <li><Link class="textHeader" to="/Product">Produtos</Link></li>
+                    <li class="textHeader">Categorias</li>
+                    <li class="textHeader">Ofertas</li>
+                    <li><Link class="textHeaderIcon" to="/Cart"><span class="material-symbols-outlined">shopping_cart</span></Link></li>
+                </ul>
+                
             </div>
         </header>
     );

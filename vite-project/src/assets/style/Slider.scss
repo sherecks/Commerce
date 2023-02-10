@@ -1,8 +1,22 @@
 
 .Sliderimg {
-    width: 600px;
-    margin-left: 635px;
+    width: 400px;
     border-radius: 10px;
+    margin: 10px;
+}
+
+.Textoimg{
+    width: 430px;
+    text-align: center;
+    margin: 10px;
+    font-size: 33px;
+    font-family: 'Martian Mono', monospace;
 }
 
 
+.contImg{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}

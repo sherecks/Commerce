@@ -5,6 +5,9 @@ import { Catalogo } from "./assets/Catalogo";
 import { Rodape } from "./assets/Rodape";
 
 
+
+
+
 function App() {
   return(
     <div>
